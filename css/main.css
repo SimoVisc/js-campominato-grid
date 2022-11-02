@@ -1,0 +1,12 @@
+main{
+    display: flex;
+   flex-grow: 1;
+   background-color: #7fffd4;
+}
+.board{
+    width: 31.25rem;
+    height: 31.25rem;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
