@@ -1,7 +1,9 @@
 main{
-    display: flex;
+   display: flex;
+   justify-content: center;
    flex-grow: 1;
    background-color: #7fffd4;
+   padding: 1.25rem;
 }
 .board{
     width: 31.25rem;
@@ -9,4 +11,11 @@ main{
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
+}
+.board-number{
+    width: calc(100%/10);
+    height: calc(100%/10);
+    border: 0.063rem solid black;
+    padding: 1rem;
+    text-align: center;
 }
