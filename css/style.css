@@ -1,0 +1,16 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0
+}
+/* COMMON */
+body{
+   display: flex;
+   flex-direction: column;
+}
+
