@@ -5,8 +5,8 @@ for( let i=1; i<=100; i++) {
     const boardCell = document.createElement("div");
     boardCell.innerHTML = i;
     boardCell.classList.add("board-number");
-    boardCell.addEventListener("click", function(){
-        alert("Cliccato")
+    boardCell.addEventListener("click", function colorFunction(){
+        document.boardCell.style.backgroundColor = 'red';
     })
     boardContainer.append(boardCell);
 }
